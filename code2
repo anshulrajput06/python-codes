@@ -1,0 +1,14 @@
+n = int(input("Enter a number: "))
+k = int(input("Enter multiple value: "))
+n1 = 0
+n2 = 1
+while True:
+nxtTerm = n1+n2
+n1 = n2
+n2 = nxtTerm
+if n == nxtTerm:
+print(n*k)
+break
+elif nxtTerm > n:
+print("Number is not in fibonacci series")
+break
