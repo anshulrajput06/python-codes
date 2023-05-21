@@ -1,0 +1,7 @@
+anshul = [1,2,3,6,5]
+anshul.insert(4,100)
+anshul.append(500)
+anshul.sort()
+anshul.remove(6)
+
+print(anshul)
