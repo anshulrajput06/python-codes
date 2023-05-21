@@ -1,0 +1,13 @@
+n = int(input("Enter a number: "))
+n1 = 0
+n2 = 1
+while True:
+nxtTerm = n1+n2
+n1 = n2
+n2 = nxtTerm
+if n == nxtTerm:
+print("Number is Fibonacci number")
+break
+elif nxtTerm > n:
+print("Number is not Fibonacci number")
+break
